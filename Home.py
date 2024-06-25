@@ -31,7 +31,7 @@ if openai_api_key and langchain_project and langchain_api_key and langchain_endp
     try:
         llm = ChatOpenAI(
             temperature=0.1,  # 창의성 (0.0 ~ 2.0)
-            model_name="gpt-4",  # 모델명
+            model_name="gpt-4o",  # 모델명
             openai_api_key=openai_api_key  # API 키 전달
         )
     except Exception as e:
